@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  background-color: black;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes blue__ {
+  0% {
+    left: 0px;
+  }
+  /* 40% {
+    left: 590px;
+  } */
+
+  45% {
+    left: 622px;
+  }
+
+  100% {
+    background: #7f00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #e100ff,
+      #7f00ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #e100ff,
+      #7f00ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}
+@keyframes red__ {
+  0% {
+    right: 0px;
+  }
+  /* 40% {
+    right: 590px;
+  } */
+
+  45% {
+    right: 623px;
+  }
+  100% {
+    background: #7f00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #e100ff,
+      #7f00ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #e100ff,
+      #7f00ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}
+.red_ {
+  position: relative;
+  width: 271px;
+  height: 279px;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  animation-name: red__;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  border-radius: 179px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.blue_ {
+  position: relative;
+  width: 271px;
+  height: 279px;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000428,
+    #004e92
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  animation-name: blue__;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 179px;
+}
